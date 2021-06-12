@@ -104,20 +104,6 @@ class CardsFooter extends React.Component {
                 </UncontrolledTooltip>
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
-                  color="dribbble"
-                  href="https://dribbble.com/creativetim"
-                  id="tooltip829810202"
-                  target="_blank"
-                >
-                  <span className="btn-inner--icon">
-                    <i className="fa fa-dribbble" />
-                  </span>
-                </Button>
-                <UncontrolledTooltip delay={0} target="tooltip829810202">
-                  Follow us
-                </UncontrolledTooltip>
-                <Button
-                  className="btn-icon-only rounded-circle ml-1"
                   color="github"
                   href="https://github.com/creativetimofficial"
                   id="tooltip495507257"
