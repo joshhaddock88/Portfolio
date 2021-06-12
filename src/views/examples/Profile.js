@@ -18,7 +18,10 @@
 import React from "react";
 
 // reactstrap components
-import { Button, Card, Container, Row, Col } from "reactstrap";
+import { Button, Card, Container, Row, Col, } from "reactstrap";
+
+// other react elements
+import { Link } from "react-router-dom";
 
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
@@ -85,15 +88,18 @@ class Profile extends React.Component {
                       lg="4"
                     >
                       <div className="card-profile-actions py-4 mt-lg-0">
-                        <Button
-                          className="mr-4"
-                          color="info"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
-                          size="sm"
-                        >
-                          Connect
-                        </Button>
+                        <Link to="https://www.linkedin.com/in/joshuahaddock/">
+                          <Button
+                            className="mr-4"
+                            color="info"
+                            href="#pablo"
+                            onClick={e => e.preventDefault()}
+                            size="sm"
+                            href="#"
+                          >
+                            Connect
+                          </Button>
+                        </Link>
                         <Button
                           className="float-right"
                           color="default"
@@ -133,7 +139,7 @@ class Profile extends React.Component {
                     </div>
                     <div className="h6 mt-4">
                       <i className="ni business_briefcase-24 mr-2" />
-                      Software Developer - Somehwere, someplace
+                      Software Developer - On the market
                     </div>
                     <div>
                       <i className="ni education_hat mr-2" />
