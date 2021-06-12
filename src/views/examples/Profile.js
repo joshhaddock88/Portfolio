@@ -23,7 +23,7 @@ import { Button, Card, Container, Row, Col } from "reactstrap";
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
-import profile from "assets/img/theme/team-4-800x800.jpg";
+import profile from "assets/img/theme/profilePic.jpg";
 
 class Profile extends React.Component {
   componentDidMount() {
@@ -108,47 +108,45 @@ class Profile extends React.Component {
                     <Col className="order-lg-1" lg="4">
                       <div className="card-profile-stats d-flex justify-content-center">
                         <div>
-                          <span className="heading">22</span>
-                          <span className="description">Friends</span>
+                          <span className="heading">Profession</span>
+                          <span className="description">Software Developer</span>
                         </div>
                         <div>
-                          <span className="heading">10</span>
-                          <span className="description">Photos</span>
+                          <span className="heading">Hobby</span>
+                          <span className="description">Power Lifter</span>
                         </div>
                         <div>
-                          <span className="heading">89</span>
-                          <span className="description">Comments</span>
+                          <span className="heading">Downtime</span>
+                          <span className="description">Amatuer Gamer</span>
                         </div>
                       </div>
                     </Col>
                   </Row>
                   <div className="text-center mt-5">
                     <h3>
-                      Jessica Jones{" "}
-                      <span className="font-weight-light">, 27</span>
+                      Joshua Haddock{" "}
+                      <span className="font-weight-light">, 32</span>
                     </h3>
                     <div className="h6 font-weight-300">
                       <i className="ni location_pin mr-2" />
-                      Bucharest, Romania
+                      Seattle, WA, USA
                     </div>
                     <div className="h6 mt-4">
                       <i className="ni business_briefcase-24 mr-2" />
-                      Solution Manager - Creative Tim Officer
+                      Software Developer - Somehwere, someplace
                     </div>
                     <div>
                       <i className="ni education_hat mr-2" />
-                      University of Computer Science
+                      BA Walla Walla University
+                      <br></br>
+                      Certificate in Advanced Software Development Code Fellows
                     </div>
                   </div>
                   <div className="mt-5 py-5 border-top text-center">
                     <Row className="justify-content-center">
                       <Col lg="9">
                         <p>
-                          An artist of considerable range, Ryan — the name taken
-                          by Melbourne-raised, Brooklyn-based Nick Murphy —
-                          writes, performs and records all of his own music,
-                          giving it a warm, intimate feel with a solid groove
-                          structure. An artist of considerable range.
+                        After graduating with a BA in English from Walla Walla University, I took up a career in hospitality. In 2020 I switched gears, for obvious reasons, and took a coding class on a whim. I found after just a few classes that I was obsessing over my code, and that every time I was able to write a functional algorithm I would get a little jolt of adrenaline and excitement. JavaScript, HTML, and CSS were a perfect match for me as they allowed me to get immediate visual feedback and flex my creative muscle. Ideally I would work in an environment with similarly minded creative people of multiple disciplines. I find I am most energized when collaborating and learning from the experiences of those around me while also contributing my own unique experience. I bring a strong background in people skills, team management, cost control, conflict resolution, and customer service from my time in hospitality that I’m excited to bring to my work as a developer.
                         </p>
                         <a href="#pablo" onClick={e => e.preventDefault()}>
                           Show more
